@@ -185,7 +185,7 @@ header {
   position: absolute;
   font-size: 20pt;
   background-color: #9faf90;
-  display: none;
+  opacity: 0;
 }
 
 .topic-education {
@@ -219,20 +219,29 @@ header {
 .topic1:hover {
   border: #ff570a solid 2px;
 }
+
 .topic2:hover {
   border: #ff570a solid 2px;
 }
+
 .topic3:hover {
   border: #ff570a solid 2px;
 }
+
 .topic4:hover {
   border: #ff570a solid 2px;
 }
+
 .topic5:hover {
   border: #ff570a solid 2px;
 }
 
-.topic-contact:hover {
+.topic-work:hover {
+  opacity: 1;
+  border: #ff570a solid 2px;
+}
+
+.topic1:hover .topic-work {
   opacity: 1;
   border: #ff570a solid 2px;
 }
